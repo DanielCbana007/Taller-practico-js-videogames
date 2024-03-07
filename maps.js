@@ -1,49 +1,49 @@
 const emojis = {
     '-': ' ',
-    'o': '🚪',
-    'x': '💣',
+    'O': '🚪',
+    'X': '💣',
     'I': '🎁',
     'PLAYER': '💀',
     'BOMB_COLLISION': '🔥',
-    'GAME_OVER': '👍',
+    'GAME_OVER': '👎',
     'WIN': '🏆',
-};
-
-const maps = [];
-
-maps.push(`
-    Ixxxxxxxxx
-    -xxxxxxxxx
-    -xxxxxxxxx
-    -xxxxxxxxx
-    -xxxxxxxxx
-    -xxxxxxxxx
-    -xxxxxxxxx
-    -xxxxxxxxx
-    -xxxxxxxxx
-    Oxxxxxxxxx
-`)
-maps.push(`
-    o--xxxxxxx
-    x--xxxxxxx
-    xx----xxxx
-    x--xx--xxx
-    x-xxx--xxx
-    x-xxxx-xxx
-    xx--xx--xx
-    xx--xxx-xx
-    xxxx---Ixx
-    xxxxxxxxxx
-`)
-maps.push(`
-    I-----xxxx
-    xxxxx-xxxx
-    xx----xxxx
-    xx-xxxxxxx
-    xx-----xxx
-    xxxxxx-xxx
-    xx-----xxx
-    xx-xxxxxxx
-    xx-----oxx
-    xxxxxxxxxx
-`)
+    'HEART': '❤️',
+  };
+  
+  const maps = [];
+  maps.push(`
+    IXXXXXXXXX
+    -XXXXXXXXX
+    -XXXXXXXXX
+    -XXXXXXXXX
+    -XXXXXXXXX
+    -XXXXXXXXX
+    -XXXXXXXXX
+    -XXXXXXXXX
+    -XXXXXXXXX
+    OXXXXXXXXX
+  `);
+  maps.push(`
+    O--XXXXXXX
+    X--XXXXXXX
+    XX----XXXX
+    X--XX-XXXX
+    X-XXX--XXX
+    X-XXXX-XXX
+    XX--XX--XX
+    XX--XXX-XX
+    XXXX---IXX
+    XXXXXXXXXX
+    `);
+  maps.push(`
+    I-----XXXX
+    XXXXX-XXXX
+    XX----XXXX
+    XX-XXXXXXX
+    XX-----XXX
+    XXXXXX-XXX
+    XX-----XXX
+    XX-XXXXXXX
+    XX-----OXX
+    XXXXXXXXXX
+  `);
